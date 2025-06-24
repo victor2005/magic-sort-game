@@ -9,6 +9,7 @@ const NUM_TUBES = 6; // 5 colors + 1 empty tube
 
 // Level definitions
 const LEVELS = [
+  { colors: 2, tubeSize: 4, emptyTubes: 2, shuffleMoves: 10, minMoves: 2 },
   { colors: 3, tubeSize: 4, emptyTubes: 1, shuffleMoves: 30, minMoves: 5 },
   { colors: 3, tubeSize: 4, emptyTubes: 2, shuffleMoves: 40, minMoves: 7 },
   { colors: 4, tubeSize: 4, emptyTubes: 1, shuffleMoves: 50, minMoves: 10 },
