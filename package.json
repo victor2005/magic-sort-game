@@ -47,5 +47,12 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://victor2005.github.io/magic-sort-game"
+  "homepage": "https://victor2005.github.io/magic-sort-game",
+  "level2": {
+    "colors": 3,
+    "tubeSize": 4,
+    "emptyTubes": 2,
+    "shuffleMoves": 18,
+    "minMoves": 4
+  }
 }
