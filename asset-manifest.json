@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/magic-sort-game/static/css/main.ca9f7e73.css",
-    "main.js": "/magic-sort-game/static/js/main.73640adf.js",
+    "main.css": "/magic-sort-game/static/css/main.8fef0b34.css",
+    "main.js": "/magic-sort-game/static/js/main.0790c6b1.js",
     "static/js/453.445efef3.chunk.js": "/magic-sort-game/static/js/453.445efef3.chunk.js",
     "index.html": "/magic-sort-game/index.html",
-    "main.ca9f7e73.css.map": "/magic-sort-game/static/css/main.ca9f7e73.css.map",
-    "main.73640adf.js.map": "/magic-sort-game/static/js/main.73640adf.js.map",
+    "main.8fef0b34.css.map": "/magic-sort-game/static/css/main.8fef0b34.css.map",
+    "main.0790c6b1.js.map": "/magic-sort-game/static/js/main.0790c6b1.js.map",
     "453.445efef3.chunk.js.map": "/magic-sort-game/static/js/453.445efef3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca9f7e73.css",
-    "static/js/main.73640adf.js"
+    "static/css/main.8fef0b34.css",
+    "static/js/main.0790c6b1.js"
   ]
 }
