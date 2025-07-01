@@ -43,7 +43,7 @@ body {
 }
 
 .game-container {
-  max-width: 600px;
+  max-width: 800px;
   margin: 40px auto;
   padding: 24px;
   background: rgba(255,255,255,0.85);
@@ -55,13 +55,15 @@ body {
 .tubes-row {
   display: flex;
   justify-content: center;
-  gap: 32px;
+  gap: 24px;
   margin: 32px 0;
+  flex-wrap: wrap;
+  max-width: 100%;
 }
 
 .tube {
   width: 54px;
-  height: 220px;
+  height: 280px;
   background: linear-gradient(180deg, #e0e0e0 60%, #f5f5f5 100%);
   border-radius: 22px 22px 14px 14px;
   border: 3px solid #bdbdbd;
@@ -83,7 +85,7 @@ body {
   left: 8px;
   top: 10px;
   width: 36px;
-  height: 180px;
+  height: 240px;
   border-radius: 16px 16px 10px 10px;
   background: linear-gradient(120deg, rgba(255,255,255,0.25) 0%, rgba(255,255,255,0.05) 100%);
   z-index: 1;
@@ -102,9 +104,9 @@ body {
 }
 .liquid-segment {
   width: 92%;
-  height: 24px;
-  margin: 2px auto;
-  border-radius: 10px;
+  height: 20px;
+  margin: 1px auto;
+  border-radius: 8px;
   border: 1.5px solid #fff;
   box-sizing: border-box;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);

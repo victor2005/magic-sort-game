@@ -1,46 +1,72 @@
-# Getting Started with Create React App
+# Magic Sort Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A challenging puzzle game where you sort colored liquid segments into tubes so that each tube contains only one color. The goal is to organize all the colored segments by pouring them between tubes strategically.
+
+## Game Features
+
+- **30 challenging levels** with increasing difficulty
+- **Dynamic tube sizes**: 4, 5, and 6 segments per tube
+- **Multiple colors**: 2 to 8 different colors per level
+- **Variable empty tubes**: 1 to 3 empty tubes for strategic planning
+- **Hint system**: Get help when stuck
+- **Progress tracking**: See your progress through all levels
+- **Smooth animations**: Beautiful liquid pouring animations
+- **Responsive design**: Works on desktop and mobile
+
+## Level Progression
+
+The game features 30 levels with the following progression:
+
+### Beginner Levels (1-12)
+- 2-7 colors
+- 4 segments per tube
+- 1-2 empty tubes
+- 2-30 minimum moves
+
+### Intermediate Levels (13-24)
+- 5-8 colors
+- 5 segments per tube
+- 2-3 empty tubes
+- 25-60 minimum moves
+
+### Expert Levels (25-30)
+- 6-8 colors
+- 6 segments per tube
+- 2-3 empty tubes
+- 45-70 minimum moves
+
+## How to Play
+
+1. Click on a tube to select it (it will highlight in blue)
+2. Click on another tube to pour liquid from the selected tube
+3. You can only pour liquid onto the same color or into an empty tube
+4. The goal is to have each tube filled with only one color
+5. Use the hint button if you get stuck
+6. Complete all levels to win the game!
 
 ## Available Scripts
 
-In the project directory, you can run:
-
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Builds the app for production to the `build` folder.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `npm run deploy`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Deploys the game to GitHub Pages.
 
-### `npm run eject`
+## Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- React 19
+- TypeScript
+- Framer Motion (animations)
+- React Confetti (celebration effects)
+- CSS3 with modern styling
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Live Demo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Play the game online at: [https://victor2005.github.io/magic-sort-game](https://victor2005.github.io/magic-sort-game)
