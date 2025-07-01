@@ -19,7 +19,6 @@ const LEVELS = [
   { colors: 6, tubeSize: 4, emptyTubes: 2, shuffleMoves: 100, minMoves: 23 },
   { colors: 7, tubeSize: 4, emptyTubes: 2, shuffleMoves: 120, minMoves: 26 },
   { colors: 7, tubeSize: 4, emptyTubes: 2, shuffleMoves: 150, minMoves: 30 },
-  // New challenging levels
   { colors: 8, tubeSize: 4, emptyTubes: 2, shuffleMoves: 180, minMoves: 35 },
   { colors: 8, tubeSize: 4, emptyTubes: 3, shuffleMoves: 200, minMoves: 40 },
   { colors: 5, tubeSize: 5, emptyTubes: 2, shuffleMoves: 120, minMoves: 25 },
