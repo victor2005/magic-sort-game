@@ -1,0 +1,2639 @@
+[
+  {
+    "colors": 4,
+    "tubeSize": 4,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#3ef070",
+        "#bf776b",
+        "#bf776b"
+      ],
+      [
+        "#3ef070",
+        "#3ef070"
+      ],
+      [
+        "#3ef070",
+        "#342326",
+        "#eef97a"
+      ],
+      [
+        "#bf776b",
+        "#eef97a",
+        "#eef97a"
+      ],
+      [
+        "#342326",
+        "#342326",
+        "#342326",
+        "#eef97a"
+      ],
+      [
+        "#bf776b"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 8,
+    "actualMoves": 8,
+    "shuffleMoves": 8
+  },
+  {
+    "colors": 4,
+    "tubeSize": 4,
+    "emptyTubes": 3,
+    "tubes": [
+      [
+        "#e212d0",
+        "#53e936",
+        "#53e936",
+        "#e212d0"
+      ],
+      [
+        "#e212d0",
+        "#cdbec4",
+        "#2aafa1",
+        "#2aafa1"
+      ],
+      [
+        "#cdbec4"
+      ],
+      [
+        "#2aafa1"
+      ],
+      [
+        "#53e936",
+        "#2aafa1"
+      ],
+      [
+        "#e212d0",
+        "#cdbec4",
+        "#cdbec4"
+      ],
+      [
+        "#53e936"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 9,
+    "actualMoves": 9,
+    "shuffleMoves": 9
+  },
+  {
+    "colors": 4,
+    "tubeSize": 4,
+    "emptyTubes": 3,
+    "tubes": [
+      [
+        "#c3d328",
+        "#c3d328"
+      ],
+      [
+        "#f55df1",
+        "#48c969"
+      ],
+      [
+        "#f55df1",
+        "#cc7e2f",
+        "#cc7e2f"
+      ],
+      [
+        "#cc7e2f",
+        "#f55df1"
+      ],
+      [
+        "#48c969",
+        "#48c969",
+        "#c3d328"
+      ],
+      [
+        "#48c969",
+        "#c3d328"
+      ],
+      [
+        "#f55df1",
+        "#cc7e2f"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 9,
+    "actualMoves": 9,
+    "shuffleMoves": 9
+  },
+  {
+    "colors": 4,
+    "tubeSize": 5,
+    "emptyTubes": 3,
+    "tubes": [
+      [
+        "#e7f5a0",
+        "#431cd9"
+      ],
+      [
+        "#431cd9",
+        "#431cd9",
+        "#7a87d5"
+      ],
+      [
+        "#e7f5a0",
+        "#e7f5a0"
+      ],
+      [
+        "#73a16d",
+        "#73a16d",
+        "#73a16d",
+        "#7a87d5",
+        "#7a87d5"
+      ],
+      [
+        "#e7f5a0"
+      ],
+      [
+        "#7a87d5",
+        "#e7f5a0",
+        "#431cd9"
+      ],
+      [
+        "#7a87d5",
+        "#431cd9",
+        "#73a16d",
+        "#73a16d"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 10,
+    "actualMoves": 10,
+    "shuffleMoves": 10
+  },
+  {
+    "colors": 4,
+    "tubeSize": 4,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#ad46e7",
+        "#a113f9",
+        "#ad46e7",
+        "#d536eb"
+      ],
+      [
+        "#a113f9",
+        "#a113f9",
+        "#ad46e7"
+      ],
+      [
+        "#a74222"
+      ],
+      [
+        "#a74222",
+        "#a113f9",
+        "#d536eb",
+        "#a74222"
+      ],
+      [
+        "#a74222"
+      ],
+      [
+        "#d536eb",
+        "#d536eb",
+        "#ad46e7"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 11,
+    "actualMoves": 11,
+    "shuffleMoves": 11
+  },
+  {
+    "colors": 4,
+    "tubeSize": 4,
+    "emptyTubes": 3,
+    "tubes": [
+      [
+        "#02c5c4",
+        "#c1a58e",
+        "#02c5c4"
+      ],
+      [
+        "#02c5c4",
+        "#5ca0da"
+      ],
+      [
+        "#c1a58e",
+        "#5ca0da"
+      ],
+      [
+        "#5ca0da",
+        "#45bc43",
+        "#45bc43"
+      ],
+      [],
+      [
+        "#02c5c4",
+        "#c1a58e"
+      ],
+      [
+        "#45bc43",
+        "#c1a58e",
+        "#45bc43",
+        "#5ca0da"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 11,
+    "actualMoves": 11,
+    "shuffleMoves": 11
+  },
+  {
+    "colors": 4,
+    "tubeSize": 5,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#003eac",
+        "#003eac",
+        "#8cf431"
+      ],
+      [
+        "#8cf431",
+        "#6d042a",
+        "#090121",
+        "#090121"
+      ],
+      [
+        "#090121",
+        "#8cf431",
+        "#6d042a"
+      ],
+      [
+        "#003eac",
+        "#003eac",
+        "#090121"
+      ],
+      [
+        "#6d042a",
+        "#6d042a",
+        "#6d042a",
+        "#8cf431",
+        "#003eac"
+      ],
+      [
+        "#090121",
+        "#8cf431"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 11,
+    "actualMoves": 11,
+    "shuffleMoves": 11
+  },
+  {
+    "colors": 4,
+    "tubeSize": 5,
+    "emptyTubes": 2,
+    "tubes": [
+      [],
+      [
+        "#f17cbd",
+        "#6c388c",
+        "#6c388c",
+        "#6c388c"
+      ],
+      [
+        "#a696ac",
+        "#f17cbd",
+        "#a696ac",
+        "#f17cbd"
+      ],
+      [
+        "#0e13bb",
+        "#0e13bb",
+        "#6c388c",
+        "#0e13bb",
+        "#0e13bb"
+      ],
+      [
+        "#a696ac",
+        "#6c388c"
+      ],
+      [
+        "#0e13bb",
+        "#f17cbd",
+        "#f17cbd",
+        "#a696ac",
+        "#a696ac"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 11,
+    "actualMoves": 11,
+    "shuffleMoves": 11
+  },
+  {
+    "colors": 4,
+    "tubeSize": 4,
+    "emptyTubes": 3,
+    "tubes": [
+      [
+        "#2ec6ac",
+        "#05b4e0",
+        "#05b4e0"
+      ],
+      [
+        "#5f0023",
+        "#a3f84e",
+        "#2ec6ac",
+        "#a3f84e"
+      ],
+      [
+        "#5f0023",
+        "#5f0023",
+        "#a3f84e"
+      ],
+      [
+        "#2ec6ac",
+        "#05b4e0"
+      ],
+      [
+        "#a3f84e",
+        "#05b4e0",
+        "#5f0023"
+      ],
+      [],
+      [
+        "#2ec6ac"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 11,
+    "actualMoves": 11,
+    "shuffleMoves": 11
+  },
+  {
+    "colors": 4,
+    "tubeSize": 4,
+    "emptyTubes": 3,
+    "tubes": [
+      [
+        "#c6a0bf",
+        "#9b0634",
+        "#c6a0bf",
+        "#c6a0bf"
+      ],
+      [],
+      [
+        "#c6a0bf",
+        "#a7a87c"
+      ],
+      [
+        "#9b0634",
+        "#a7a87c",
+        "#897e7b",
+        "#a7a87c"
+      ],
+      [
+        "#897e7b",
+        "#a7a87c"
+      ],
+      [
+        "#897e7b"
+      ],
+      [
+        "#897e7b",
+        "#9b0634",
+        "#9b0634"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 11,
+    "actualMoves": 11,
+    "shuffleMoves": 11
+  },
+  {
+    "colors": 4,
+    "tubeSize": 5,
+    "emptyTubes": 3,
+    "tubes": [
+      [
+        "#39ec07",
+        "#f855c9",
+        "#f855c9",
+        "#0f7582"
+      ],
+      [
+        "#0f7582",
+        "#39ec07"
+      ],
+      [
+        "#0f7582",
+        "#4b2825",
+        "#39ec07",
+        "#4b2825",
+        "#f855c9"
+      ],
+      [
+        "#4b2825",
+        "#4b2825",
+        "#39ec07"
+      ],
+      [
+        "#0f7582",
+        "#0f7582",
+        "#39ec07"
+      ],
+      [
+        "#f855c9"
+      ],
+      [
+        "#4b2825",
+        "#f855c9"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 13,
+    "actualMoves": 13,
+    "shuffleMoves": 13
+  },
+  {
+    "colors": 5,
+    "tubeSize": 5,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#155e89",
+        "#71058c",
+        "#0582a6"
+      ],
+      [
+        "#0582a6"
+      ],
+      [
+        "#71058c",
+        "#3c2c78",
+        "#3c2c78"
+      ],
+      [
+        "#059d42",
+        "#155e89",
+        "#155e89",
+        "#155e89",
+        "#3c2c78"
+      ],
+      [
+        "#3c2c78",
+        "#3c2c78",
+        "#71058c"
+      ],
+      [
+        "#0582a6",
+        "#71058c",
+        "#71058c",
+        "#059d42",
+        "#059d42"
+      ],
+      [
+        "#059d42",
+        "#0582a6",
+        "#059d42",
+        "#0582a6",
+        "#155e89"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 14,
+    "actualMoves": 14,
+    "shuffleMoves": 14
+  },
+  {
+    "colors": 6,
+    "tubeSize": 4,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#293c54",
+        "#e22bbd",
+        "#293c54"
+      ],
+      [
+        "#71aa29",
+        "#71aa29",
+        "#71aa29",
+        "#293c54"
+      ],
+      [
+        "#44b7e5"
+      ],
+      [
+        "#44b7e5",
+        "#e22bbd",
+        "#44b7e5",
+        "#e22bbd"
+      ],
+      [
+        "#293c54",
+        "#7b58cd",
+        "#71aa29"
+      ],
+      [
+        "#19ee19",
+        "#7b58cd",
+        "#7b58cd"
+      ],
+      [
+        "#e22bbd",
+        "#19ee19",
+        "#44b7e5"
+      ],
+      [
+        "#7b58cd",
+        "#19ee19",
+        "#19ee19"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 14,
+    "actualMoves": 14,
+    "shuffleMoves": 14
+  },
+  {
+    "colors": 5,
+    "tubeSize": 4,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#bbe516",
+        "#91c3aa",
+        "#534939"
+      ],
+      [
+        "#2b3342",
+        "#534939",
+        "#534939",
+        "#2b3342"
+      ],
+      [
+        "#91c3aa"
+      ],
+      [
+        "#2b3342",
+        "#534939"
+      ],
+      [
+        "#bbe516",
+        "#274a28"
+      ],
+      [
+        "#bbe516",
+        "#91c3aa",
+        "#274a28",
+        "#274a28"
+      ],
+      [
+        "#2b3342",
+        "#91c3aa",
+        "#274a28",
+        "#bbe516"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 15,
+    "actualMoves": 15,
+    "shuffleMoves": 15
+  },
+  {
+    "colors": 5,
+    "tubeSize": 5,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#462147",
+        "#b6d754",
+        "#afb71d",
+        "#67c4ed",
+        "#67c4ed"
+      ],
+      [
+        "#afb71d",
+        "#afb71d",
+        "#afb71d"
+      ],
+      [
+        "#462147",
+        "#f2ba66",
+        "#67c4ed",
+        "#462147",
+        "#462147"
+      ],
+      [
+        "#f2ba66",
+        "#b6d754",
+        "#b6d754",
+        "#b6d754"
+      ],
+      [
+        "#f2ba66",
+        "#462147",
+        "#67c4ed"
+      ],
+      [
+        "#f2ba66",
+        "#b6d754",
+        "#f2ba66",
+        "#67c4ed"
+      ],
+      [
+        "#afb71d"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 16,
+    "actualMoves": 16,
+    "shuffleMoves": 16
+  },
+  {
+    "colors": 5,
+    "tubeSize": 5,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#075f6c",
+        "#9cb323",
+        "#68b776"
+      ],
+      [
+        "#492b24",
+        "#9cb323",
+        "#768efa",
+        "#768efa",
+        "#492b24"
+      ],
+      [
+        "#492b24",
+        "#075f6c",
+        "#9cb323"
+      ],
+      [
+        "#075f6c",
+        "#075f6c",
+        "#768efa",
+        "#768efa",
+        "#768efa"
+      ],
+      [
+        "#075f6c",
+        "#9cb323"
+      ],
+      [
+        "#68b776",
+        "#492b24",
+        "#68b776",
+        "#9cb323",
+        "#492b24"
+      ],
+      [
+        "#68b776",
+        "#68b776"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 17,
+    "actualMoves": 17,
+    "shuffleMoves": 17
+  },
+  {
+    "colors": 6,
+    "tubeSize": 4,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#6073ee",
+        "#36c243"
+      ],
+      [
+        "#682341",
+        "#a81428",
+        "#682341"
+      ],
+      [
+        "#39e145",
+        "#6073ee",
+        "#0b9915",
+        "#a81428"
+      ],
+      [
+        "#a81428",
+        "#39e145",
+        "#a81428"
+      ],
+      [
+        "#0b9915",
+        "#6073ee",
+        "#0b9915"
+      ],
+      [
+        "#682341",
+        "#0b9915",
+        "#6073ee"
+      ],
+      [
+        "#36c243",
+        "#36c243",
+        "#39e145",
+        "#36c243"
+      ],
+      [
+        "#39e145",
+        "#682341"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 17,
+    "actualMoves": 17,
+    "shuffleMoves": 17
+  },
+  {
+    "colors": 4,
+    "tubeSize": 6,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#4ae676",
+        "#4461b8",
+        "#4461b8",
+        "#70e6ee",
+        "#4461b8"
+      ],
+      [
+        "#4ae676",
+        "#4e198e",
+        "#70e6ee",
+        "#4e198e"
+      ],
+      [
+        "#70e6ee",
+        "#4461b8",
+        "#4e198e",
+        "#4ae676",
+        "#70e6ee",
+        "#4461b8"
+      ],
+      [
+        "#4e198e",
+        "#4ae676",
+        "#4ae676"
+      ],
+      [
+        "#4461b8",
+        "#4e198e",
+        "#70e6ee",
+        "#70e6ee"
+      ],
+      [
+        "#4e198e",
+        "#4ae676"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 17,
+    "actualMoves": 17,
+    "shuffleMoves": 17
+  },
+  {
+    "colors": 6,
+    "tubeSize": 4,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#2a64fb",
+        "#2a64fb"
+      ],
+      [
+        "#8aa92a",
+        "#2a64fb",
+        "#661470",
+        "#707929"
+      ],
+      [
+        "#661470",
+        "#8aa92a"
+      ],
+      [
+        "#bafae1",
+        "#707929",
+        "#27d02f",
+        "#bafae1"
+      ],
+      [
+        "#bafae1",
+        "#2a64fb"
+      ],
+      [
+        "#8aa92a",
+        "#661470",
+        "#bafae1"
+      ],
+      [
+        "#27d02f",
+        "#27d02f",
+        "#8aa92a",
+        "#707929"
+      ],
+      [
+        "#27d02f",
+        "#661470",
+        "#707929"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 17,
+    "actualMoves": 17,
+    "shuffleMoves": 17
+  },
+  {
+    "colors": 5,
+    "tubeSize": 5,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#0a6fd5",
+        "#75f66f",
+        "#75f66f"
+      ],
+      [
+        "#75f66f",
+        "#30b39e",
+        "#0a6fd5",
+        "#30b39e",
+        "#c76a5a"
+      ],
+      [
+        "#0a6fd5"
+      ],
+      [
+        "#30b39e",
+        "#2e16b3",
+        "#75f66f",
+        "#30b39e",
+        "#c76a5a"
+      ],
+      [
+        "#2e16b3",
+        "#75f66f",
+        "#2e16b3",
+        "#2e16b3"
+      ],
+      [
+        "#0a6fd5",
+        "#c76a5a",
+        "#30b39e"
+      ],
+      [
+        "#c76a5a",
+        "#2e16b3",
+        "#0a6fd5",
+        "#c76a5a"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 18,
+    "actualMoves": 18,
+    "shuffleMoves": 18
+  },
+  {
+    "colors": 4,
+    "tubeSize": 6,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#10d08e",
+        "#7ef82d",
+        "#10d08e"
+      ],
+      [
+        "#b195d4",
+        "#3e7722",
+        "#b195d4",
+        "#3e7722"
+      ],
+      [
+        "#10d08e",
+        "#b195d4",
+        "#3e7722",
+        "#10d08e"
+      ],
+      [
+        "#10d08e",
+        "#7ef82d",
+        "#7ef82d",
+        "#3e7722"
+      ],
+      [
+        "#10d08e",
+        "#b195d4",
+        "#7ef82d"
+      ],
+      [
+        "#3e7722",
+        "#b195d4",
+        "#b195d4",
+        "#7ef82d",
+        "#7ef82d",
+        "#3e7722"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 18,
+    "actualMoves": 18,
+    "shuffleMoves": 18
+  },
+  {
+    "colors": 4,
+    "tubeSize": 8,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#0d5c02",
+        "#0d5c02",
+        "#0d5c02",
+        "#0d5c02"
+      ],
+      [
+        "#0acf50",
+        "#cce964",
+        "#cce964",
+        "#cce964",
+        "#7c9dd6",
+        "#7c9dd6",
+        "#0d5c02",
+        "#cce964"
+      ],
+      [
+        "#7c9dd6",
+        "#0acf50",
+        "#7c9dd6",
+        "#0acf50",
+        "#0acf50",
+        "#0d5c02",
+        "#cce964"
+      ],
+      [
+        "#7c9dd6"
+      ],
+      [
+        "#cce964",
+        "#7c9dd6",
+        "#7c9dd6",
+        "#0acf50",
+        "#0acf50",
+        "#0d5c02",
+        "#7c9dd6",
+        "#cce964"
+      ],
+      [
+        "#0acf50",
+        "#0acf50",
+        "#cce964",
+        "#0d5c02"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 18,
+    "actualMoves": 18,
+    "shuffleMoves": 18
+  },
+  {
+    "colors": 7,
+    "tubeSize": 4,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#c1c300",
+        "#c37e26"
+      ],
+      [
+        "#18d822",
+        "#18d822"
+      ],
+      [
+        "#ca926a",
+        "#c1c300",
+        "#720775",
+        "#ca926a"
+      ],
+      [
+        "#720775",
+        "#720775",
+        "#9c6212"
+      ],
+      [
+        "#c1c300",
+        "#9c6212"
+      ],
+      [
+        "#c37e26",
+        "#ca926a",
+        "#720775",
+        "#c37e26"
+      ],
+      [
+        "#75be86",
+        "#18d822",
+        "#9c6212",
+        "#c37e26"
+      ],
+      [
+        "#ca926a",
+        "#18d822",
+        "#75be86",
+        "#c1c300"
+      ],
+      [
+        "#9c6212",
+        "#75be86",
+        "#75be86"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 18,
+    "actualMoves": 18,
+    "shuffleMoves": 18
+  },
+  {
+    "colors": 5,
+    "tubeSize": 5,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#1cffd3",
+        "#0da847"
+      ],
+      [
+        "#32985a",
+        "#0da847",
+        "#0b5d01",
+        "#0da847"
+      ],
+      [
+        "#1cffd3",
+        "#32985a"
+      ],
+      [
+        "#0da847",
+        "#2dfe05",
+        "#0da847",
+        "#1cffd3",
+        "#2dfe05"
+      ],
+      [
+        "#2dfe05",
+        "#32985a",
+        "#1cffd3",
+        "#2dfe05",
+        "#2dfe05"
+      ],
+      [
+        "#0b5d01",
+        "#32985a"
+      ],
+      [
+        "#32985a",
+        "#0b5d01",
+        "#0b5d01",
+        "#1cffd3",
+        "#0b5d01"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 19,
+    "actualMoves": 19,
+    "shuffleMoves": 19
+  },
+  {
+    "colors": 4,
+    "tubeSize": 6,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#668d8e",
+        "#aa0862",
+        "#9aacef",
+        "#668d8e",
+        "#aa0862"
+      ],
+      [
+        "#668d8e",
+        "#fc1d76",
+        "#668d8e"
+      ],
+      [
+        "#fc1d76",
+        "#668d8e",
+        "#aa0862",
+        "#668d8e",
+        "#9aacef"
+      ],
+      [],
+      [
+        "#9aacef",
+        "#aa0862",
+        "#aa0862",
+        "#fc1d76",
+        "#9aacef",
+        "#aa0862"
+      ],
+      [
+        "#fc1d76",
+        "#9aacef",
+        "#fc1d76",
+        "#fc1d76",
+        "#9aacef"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 19,
+    "actualMoves": 19,
+    "shuffleMoves": 19
+  },
+  {
+    "colors": 4,
+    "tubeSize": 7,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#4df42b",
+        "#48bff1",
+        "#10f040",
+        "#48bff1",
+        "#849110"
+      ],
+      [
+        "#10f040",
+        "#849110",
+        "#849110",
+        "#849110",
+        "#48bff1",
+        "#849110"
+      ],
+      [
+        "#10f040",
+        "#4df42b",
+        "#10f040"
+      ],
+      [
+        "#4df42b",
+        "#4df42b",
+        "#4df42b"
+      ],
+      [
+        "#10f040",
+        "#849110",
+        "#48bff1",
+        "#10f040",
+        "#849110",
+        "#48bff1",
+        "#10f040"
+      ],
+      [
+        "#48bff1",
+        "#48bff1",
+        "#4df42b",
+        "#4df42b"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 19,
+    "actualMoves": 19,
+    "shuffleMoves": 19
+  },
+  {
+    "colors": 5,
+    "tubeSize": 5,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#f3d9c1",
+        "#108dd5"
+      ],
+      [
+        "#9bebd0",
+        "#3a00f8",
+        "#1728b0"
+      ],
+      [
+        "#f3d9c1",
+        "#108dd5"
+      ],
+      [
+        "#3a00f8",
+        "#3a00f8",
+        "#108dd5"
+      ],
+      [
+        "#9bebd0",
+        "#1728b0",
+        "#108dd5",
+        "#f3d9c1",
+        "#3a00f8"
+      ],
+      [
+        "#9bebd0",
+        "#f3d9c1",
+        "#9bebd0",
+        "#1728b0",
+        "#1728b0"
+      ],
+      [
+        "#1728b0",
+        "#f3d9c1",
+        "#108dd5",
+        "#3a00f8",
+        "#9bebd0"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 19,
+    "actualMoves": 19,
+    "shuffleMoves": 19
+  },
+  {
+    "colors": 5,
+    "tubeSize": 5,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#7fb3fb",
+        "#7fb3fb"
+      ],
+      [
+        "#7fb3fb",
+        "#9f531b",
+        "#ce0088",
+        "#839afc",
+        "#9f531b"
+      ],
+      [
+        "#839afc",
+        "#52b234",
+        "#9f531b",
+        "#52b234"
+      ],
+      [
+        "#839afc",
+        "#52b234",
+        "#7fb3fb",
+        "#ce0088",
+        "#839afc"
+      ],
+      [
+        "#9f531b",
+        "#ce0088",
+        "#52b234"
+      ],
+      [
+        "#ce0088",
+        "#ce0088",
+        "#7fb3fb"
+      ],
+      [
+        "#839afc",
+        "#9f531b",
+        "#52b234"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 19,
+    "actualMoves": 19,
+    "shuffleMoves": 19
+  },
+  {
+    "colors": 4,
+    "tubeSize": 8,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#9c2e16",
+        "#a10106",
+        "#497132"
+      ],
+      [
+        "#ec845e",
+        "#ec845e",
+        "#a10106",
+        "#a10106",
+        "#ec845e",
+        "#9c2e16",
+        "#497132"
+      ],
+      [
+        "#9c2e16",
+        "#a10106",
+        "#497132",
+        "#497132",
+        "#9c2e16"
+      ],
+      [
+        "#a10106",
+        "#a10106",
+        "#a10106",
+        "#497132"
+      ],
+      [
+        "#ec845e",
+        "#497132",
+        "#497132",
+        "#9c2e16",
+        "#9c2e16",
+        "#9c2e16"
+      ],
+      [
+        "#ec845e",
+        "#497132",
+        "#a10106",
+        "#ec845e",
+        "#9c2e16",
+        "#ec845e",
+        "#ec845e"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 20,
+    "actualMoves": 20,
+    "shuffleMoves": 20
+  },
+  {
+    "colors": 6,
+    "tubeSize": 5,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#d5747e",
+        "#d5747e",
+        "#d5747e",
+        "#ff2e5d",
+        "#cac9f8"
+      ],
+      [
+        "#c9879a",
+        "#1b46ba",
+        "#e1260f",
+        "#e1260f"
+      ],
+      [
+        "#cac9f8",
+        "#ff2e5d"
+      ],
+      [
+        "#cac9f8",
+        "#c9879a",
+        "#cac9f8"
+      ],
+      [
+        "#ff2e5d",
+        "#1b46ba",
+        "#cac9f8",
+        "#c9879a",
+        "#1b46ba"
+      ],
+      [
+        "#e1260f",
+        "#ff2e5d"
+      ],
+      [
+        "#1b46ba",
+        "#c9879a",
+        "#ff2e5d",
+        "#e1260f",
+        "#1b46ba"
+      ],
+      [
+        "#e1260f",
+        "#c9879a",
+        "#d5747e",
+        "#d5747e"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 20,
+    "actualMoves": 20,
+    "shuffleMoves": 20
+  },
+  {
+    "colors": 4,
+    "tubeSize": 9,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#ea1bf9",
+        "#2b5668",
+        "#2b5668",
+        "#372861",
+        "#372861",
+        "#ea1bf9"
+      ],
+      [
+        "#914a9e",
+        "#372861",
+        "#914a9e",
+        "#ea1bf9",
+        "#ea1bf9",
+        "#914a9e",
+        "#914a9e",
+        "#ea1bf9",
+        "#372861"
+      ],
+      [
+        "#2b5668",
+        "#2b5668",
+        "#914a9e",
+        "#2b5668",
+        "#2b5668",
+        "#ea1bf9"
+      ],
+      [
+        "#372861",
+        "#914a9e"
+      ],
+      [
+        "#914a9e",
+        "#914a9e",
+        "#914a9e",
+        "#ea1bf9",
+        "#ea1bf9",
+        "#2b5668",
+        "#2b5668",
+        "#372861"
+      ],
+      [
+        "#2b5668",
+        "#372861",
+        "#372861",
+        "#372861",
+        "#ea1bf9"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 20,
+    "actualMoves": 20,
+    "shuffleMoves": 20
+  },
+  {
+    "colors": 4,
+    "tubeSize": 8,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#6bf233",
+        "#e336db",
+        "#e336db",
+        "#433bec",
+        "#e336db",
+        "#6bf233",
+        "#433bec"
+      ],
+      [
+        "#433bec",
+        "#433bec",
+        "#433bec",
+        "#f9d0f3"
+      ],
+      [
+        "#f9d0f3",
+        "#e336db",
+        "#6bf233",
+        "#f9d0f3",
+        "#433bec",
+        "#e336db"
+      ],
+      [
+        "#6bf233",
+        "#6bf233",
+        "#433bec",
+        "#f9d0f3",
+        "#6bf233"
+      ],
+      [
+        "#6bf233",
+        "#f9d0f3",
+        "#f9d0f3",
+        "#f9d0f3"
+      ],
+      [
+        "#e336db",
+        "#f9d0f3",
+        "#e336db",
+        "#e336db",
+        "#6bf233",
+        "#433bec"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 21,
+    "actualMoves": 21,
+    "shuffleMoves": 21
+  },
+  {
+    "colors": 6,
+    "tubeSize": 5,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#5a9afd",
+        "#67e978",
+        "#c9aae8",
+        "#793c36"
+      ],
+      [
+        "#a817e8",
+        "#5a9afd",
+        "#02ddcd"
+      ],
+      [
+        "#c9aae8",
+        "#a817e8",
+        "#a817e8",
+        "#67e978",
+        "#c9aae8"
+      ],
+      [
+        "#5a9afd"
+      ],
+      [
+        "#793c36",
+        "#a817e8"
+      ],
+      [
+        "#67e978",
+        "#5a9afd",
+        "#02ddcd",
+        "#02ddcd",
+        "#67e978"
+      ],
+      [
+        "#793c36",
+        "#a817e8",
+        "#67e978",
+        "#02ddcd",
+        "#02ddcd"
+      ],
+      [
+        "#c9aae8",
+        "#793c36",
+        "#c9aae8",
+        "#793c36",
+        "#5a9afd"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 22,
+    "actualMoves": 22,
+    "shuffleMoves": 22
+  },
+  {
+    "colors": 4,
+    "tubeSize": 9,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#5a2306",
+        "#5a2306",
+        "#12fe6b",
+        "#ca2fd8",
+        "#ca2fd8",
+        "#ca2fd8",
+        "#81ed96",
+        "#5a2306",
+        "#12fe6b"
+      ],
+      [
+        "#5a2306",
+        "#12fe6b",
+        "#5a2306",
+        "#ca2fd8",
+        "#81ed96"
+      ],
+      [
+        "#5a2306",
+        "#81ed96",
+        "#81ed96",
+        "#12fe6b",
+        "#12fe6b",
+        "#ca2fd8",
+        "#ca2fd8",
+        "#ca2fd8"
+      ],
+      [
+        "#5a2306",
+        "#5a2306",
+        "#81ed96",
+        "#12fe6b",
+        "#12fe6b",
+        "#81ed96",
+        "#12fe6b",
+        "#81ed96"
+      ],
+      [
+        "#ca2fd8",
+        "#ca2fd8"
+      ],
+      [
+        "#81ed96",
+        "#81ed96",
+        "#5a2306",
+        "#12fe6b"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 22,
+    "actualMoves": 22,
+    "shuffleMoves": 22
+  },
+  {
+    "colors": 4,
+    "tubeSize": 8,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#1a4929",
+        "#744e64",
+        "#744e64"
+      ],
+      [
+        "#73c815",
+        "#1a4929",
+        "#744e64",
+        "#73c815",
+        "#744e64"
+      ],
+      [
+        "#73c815",
+        "#08ea07",
+        "#1a4929",
+        "#08ea07",
+        "#08ea07",
+        "#1a4929",
+        "#08ea07"
+      ],
+      [
+        "#1a4929",
+        "#744e64"
+      ],
+      [
+        "#08ea07",
+        "#73c815",
+        "#73c815",
+        "#1a4929",
+        "#08ea07",
+        "#744e64",
+        "#744e64",
+        "#744e64"
+      ],
+      [
+        "#1a4929",
+        "#73c815",
+        "#08ea07",
+        "#08ea07",
+        "#1a4929",
+        "#73c815",
+        "#73c815"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 22,
+    "actualMoves": 22,
+    "shuffleMoves": 22
+  },
+  {
+    "colors": 4,
+    "tubeSize": 8,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#b062e9",
+        "#0d2f74",
+        "#0113e3",
+        "#0113e3",
+        "#cf0276"
+      ],
+      [
+        "#cf0276",
+        "#cf0276",
+        "#0d2f74",
+        "#b062e9",
+        "#cf0276",
+        "#0113e3",
+        "#0113e3",
+        "#cf0276"
+      ],
+      [
+        "#0d2f74",
+        "#0113e3"
+      ],
+      [
+        "#b062e9",
+        "#0113e3",
+        "#cf0276",
+        "#b062e9",
+        "#b062e9",
+        "#0d2f74",
+        "#0d2f74",
+        "#cf0276"
+      ],
+      [
+        "#b062e9",
+        "#0d2f74",
+        "#0113e3",
+        "#0d2f74"
+      ],
+      [
+        "#b062e9",
+        "#b062e9",
+        "#0113e3",
+        "#cf0276",
+        "#0d2f74"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 23,
+    "actualMoves": 23,
+    "shuffleMoves": 23
+  },
+  {
+    "colors": 6,
+    "tubeSize": 5,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#f8d0a8",
+        "#f2f939",
+        "#fb0873"
+      ],
+      [
+        "#f8d0a8",
+        "#04cd89",
+        "#f8d0a8",
+        "#7611b2",
+        "#04cd89"
+      ],
+      [
+        "#7611b2",
+        "#fb0873"
+      ],
+      [
+        "#04cd89",
+        "#f2f939",
+        "#f2f939",
+        "#04cd89",
+        "#aa34ec"
+      ],
+      [
+        "#aa34ec",
+        "#7611b2",
+        "#fb0873",
+        "#fb0873",
+        "#7611b2"
+      ],
+      [
+        "#aa34ec",
+        "#fb0873"
+      ],
+      [
+        "#f8d0a8",
+        "#f8d0a8",
+        "#aa34ec",
+        "#04cd89",
+        "#f2f939"
+      ],
+      [
+        "#7611b2",
+        "#f2f939",
+        "#aa34ec"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 23,
+    "actualMoves": 23,
+    "shuffleMoves": 23
+  },
+  {
+    "colors": 6,
+    "tubeSize": 5,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#173945",
+        "#75b723",
+        "#c9ffd9",
+        "#b0a408"
+      ],
+      [
+        "#173945",
+        "#b0a408",
+        "#75b723",
+        "#451c1f",
+        "#241203"
+      ],
+      [
+        "#c9ffd9",
+        "#241203",
+        "#c9ffd9",
+        "#173945",
+        "#b0a408"
+      ],
+      [
+        "#451c1f",
+        "#c9ffd9",
+        "#c9ffd9",
+        "#b0a408"
+      ],
+      [
+        "#75b723"
+      ],
+      [
+        "#241203"
+      ],
+      [
+        "#173945",
+        "#241203",
+        "#451c1f",
+        "#451c1f",
+        "#241203"
+      ],
+      [
+        "#75b723",
+        "#b0a408",
+        "#451c1f",
+        "#75b723",
+        "#173945"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 23,
+    "actualMoves": 23,
+    "shuffleMoves": 23
+  },
+  {
+    "colors": 4,
+    "tubeSize": 8,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#bced41",
+        "#bced41",
+        "#811dae",
+        "#184b8f",
+        "#184b8f",
+        "#7c905b"
+      ],
+      [
+        "#7c905b",
+        "#184b8f",
+        "#7c905b",
+        "#bced41",
+        "#184b8f"
+      ],
+      [
+        "#bced41",
+        "#811dae",
+        "#7c905b",
+        "#7c905b",
+        "#184b8f",
+        "#811dae",
+        "#811dae"
+      ],
+      [
+        "#184b8f",
+        "#811dae",
+        "#bced41",
+        "#7c905b"
+      ],
+      [
+        "#811dae",
+        "#7c905b",
+        "#811dae",
+        "#184b8f",
+        "#bced41",
+        "#7c905b",
+        "#bced41"
+      ],
+      [
+        "#bced41",
+        "#811dae",
+        "#184b8f"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 24,
+    "actualMoves": 24,
+    "shuffleMoves": 24
+  },
+  {
+    "colors": 5,
+    "tubeSize": 6,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#2d830f",
+        "#2fe840",
+        "#07a510",
+        "#9448ae",
+        "#2fe840",
+        "#2d830f"
+      ],
+      [
+        "#9448ae",
+        "#67a993",
+        "#9448ae",
+        "#2d830f",
+        "#2d830f",
+        "#07a510"
+      ],
+      [
+        "#2d830f",
+        "#9448ae",
+        "#67a993",
+        "#9448ae",
+        "#07a510"
+      ],
+      [
+        "#2fe840",
+        "#07a510",
+        "#67a993"
+      ],
+      [
+        "#2fe840",
+        "#2fe840",
+        "#67a993",
+        "#07a510"
+      ],
+      [
+        "#2fe840",
+        "#9448ae",
+        "#67a993"
+      ],
+      [
+        "#07a510",
+        "#2d830f",
+        "#67a993"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 24,
+    "actualMoves": 24,
+    "shuffleMoves": 24
+  },
+  {
+    "colors": 5,
+    "tubeSize": 7,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#85a431",
+        "#b4b324"
+      ],
+      [
+        "#8b6f8b",
+        "#078ef6",
+        "#85a431",
+        "#8b6f8b"
+      ],
+      [
+        "#8b6f8b",
+        "#b4b324",
+        "#c843bf",
+        "#078ef6",
+        "#85a431",
+        "#8b6f8b",
+        "#8b6f8b"
+      ],
+      [
+        "#078ef6",
+        "#078ef6",
+        "#85a431",
+        "#b4b324",
+        "#b4b324",
+        "#b4b324"
+      ],
+      [
+        "#8b6f8b",
+        "#078ef6",
+        "#85a431",
+        "#c843bf",
+        "#078ef6",
+        "#c843bf",
+        "#c843bf"
+      ],
+      [
+        "#b4b324",
+        "#85a431",
+        "#85a431",
+        "#c843bf",
+        "#b4b324",
+        "#c843bf"
+      ],
+      [
+        "#c843bf",
+        "#078ef6",
+        "#8b6f8b"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 24,
+    "actualMoves": 24,
+    "shuffleMoves": 24
+  },
+  {
+    "colors": 6,
+    "tubeSize": 6,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#51d973",
+        "#51d973",
+        "#23742c",
+        "#23742c",
+        "#ea8321",
+        "#ea8321"
+      ],
+      [
+        "#89ad83",
+        "#89ad83",
+        "#33bfac",
+        "#1f8114"
+      ],
+      [
+        "#51d973",
+        "#89ad83",
+        "#33bfac",
+        "#23742c",
+        "#89ad83"
+      ],
+      [
+        "#33bfac",
+        "#1f8114",
+        "#1f8114",
+        "#51d973",
+        "#33bfac"
+      ],
+      [
+        "#33bfac",
+        "#51d973",
+        "#ea8321",
+        "#23742c",
+        "#1f8114",
+        "#ea8321"
+      ],
+      [
+        "#1f8114",
+        "#33bfac",
+        "#1f8114"
+      ],
+      [
+        "#ea8321",
+        "#ea8321",
+        "#89ad83",
+        "#51d973",
+        "#23742c",
+        "#89ad83"
+      ],
+      [
+        "#23742c"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 24,
+    "actualMoves": 24,
+    "shuffleMoves": 24
+  },
+  {
+    "colors": 4,
+    "tubeSize": 8,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#51a1ce",
+        "#b774d3",
+        "#51a1ce",
+        "#b774d3",
+        "#cf8c52",
+        "#ea630a"
+      ],
+      [
+        "#b774d3",
+        "#cf8c52",
+        "#ea630a",
+        "#51a1ce",
+        "#b774d3",
+        "#b774d3"
+      ],
+      [
+        "#51a1ce",
+        "#cf8c52",
+        "#ea630a",
+        "#cf8c52",
+        "#ea630a"
+      ],
+      [
+        "#ea630a",
+        "#b774d3",
+        "#ea630a",
+        "#51a1ce",
+        "#cf8c52",
+        "#cf8c52"
+      ],
+      [
+        "#cf8c52",
+        "#51a1ce",
+        "#51a1ce",
+        "#b774d3",
+        "#ea630a",
+        "#b774d3"
+      ],
+      [
+        "#cf8c52",
+        "#ea630a",
+        "#51a1ce"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 25,
+    "actualMoves": 25,
+    "shuffleMoves": 25
+  },
+  {
+    "colors": 5,
+    "tubeSize": 8,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#8552a1",
+        "#8552a1",
+        "#ce1159",
+        "#ce1159"
+      ],
+      [
+        "#c27393",
+        "#cd419a",
+        "#cd419a",
+        "#cd419a",
+        "#3ef56c"
+      ],
+      [
+        "#ce1159",
+        "#ce1159",
+        "#cd419a",
+        "#c27393",
+        "#c27393",
+        "#ce1159",
+        "#8552a1",
+        "#8552a1"
+      ],
+      [
+        "#3ef56c",
+        "#ce1159",
+        "#cd419a",
+        "#cd419a",
+        "#3ef56c",
+        "#8552a1",
+        "#c27393",
+        "#3ef56c"
+      ],
+      [
+        "#ce1159",
+        "#3ef56c",
+        "#8552a1",
+        "#c27393",
+        "#3ef56c"
+      ],
+      [
+        "#cd419a",
+        "#cd419a",
+        "#c27393",
+        "#3ef56c",
+        "#8552a1",
+        "#ce1159",
+        "#8552a1",
+        "#3ef56c"
+      ],
+      [
+        "#c27393",
+        "#c27393"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 25,
+    "actualMoves": 25,
+    "shuffleMoves": 25
+  },
+  {
+    "colors": 4,
+    "tubeSize": 9,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#99785a",
+        "#28e21c",
+        "#e860f6",
+        "#0053d6",
+        "#0053d6",
+        "#e860f6",
+        "#99785a"
+      ],
+      [
+        "#e860f6",
+        "#99785a",
+        "#99785a",
+        "#0053d6",
+        "#28e21c",
+        "#e860f6",
+        "#28e21c"
+      ],
+      [
+        "#99785a",
+        "#99785a",
+        "#e860f6",
+        "#0053d6",
+        "#0053d6"
+      ],
+      [
+        "#e860f6",
+        "#99785a",
+        "#28e21c",
+        "#99785a",
+        "#0053d6"
+      ],
+      [
+        "#28e21c",
+        "#0053d6",
+        "#0053d6"
+      ],
+      [
+        "#28e21c",
+        "#28e21c",
+        "#99785a",
+        "#e860f6",
+        "#28e21c",
+        "#28e21c",
+        "#0053d6",
+        "#e860f6",
+        "#e860f6"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 25,
+    "actualMoves": 25,
+    "shuffleMoves": 25
+  },
+  {
+    "colors": 4,
+    "tubeSize": 9,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#e4ada6",
+        "#7ee2e7",
+        "#ca9274",
+        "#a90dee",
+        "#e4ada6",
+        "#a90dee",
+        "#e4ada6"
+      ],
+      [
+        "#e4ada6",
+        "#ca9274",
+        "#e4ada6",
+        "#e4ada6"
+      ],
+      [
+        "#7ee2e7",
+        "#e4ada6",
+        "#7ee2e7",
+        "#a90dee"
+      ],
+      [
+        "#7ee2e7",
+        "#ca9274",
+        "#e4ada6",
+        "#a90dee",
+        "#7ee2e7",
+        "#7ee2e7"
+      ],
+      [
+        "#7ee2e7",
+        "#ca9274",
+        "#ca9274",
+        "#ca9274",
+        "#7ee2e7",
+        "#ca9274"
+      ],
+      [
+        "#a90dee",
+        "#ca9274",
+        "#e4ada6",
+        "#a90dee",
+        "#a90dee",
+        "#a90dee",
+        "#7ee2e7",
+        "#a90dee",
+        "#ca9274"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 27,
+    "actualMoves": 27,
+    "shuffleMoves": 27
+  },
+  {
+    "colors": 5,
+    "tubeSize": 7,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#e2e7aa",
+        "#fed1e7",
+        "#6379c7",
+        "#e2e7aa",
+        "#6f2311",
+        "#6379c7",
+        "#6541ec"
+      ],
+      [
+        "#6379c7",
+        "#fed1e7",
+        "#fed1e7",
+        "#6379c7",
+        "#6f2311",
+        "#6541ec"
+      ],
+      [
+        "#6f2311",
+        "#e2e7aa"
+      ],
+      [
+        "#6379c7",
+        "#6541ec",
+        "#6379c7"
+      ],
+      [
+        "#e2e7aa",
+        "#e2e7aa",
+        "#6541ec",
+        "#6f2311"
+      ],
+      [
+        "#6541ec",
+        "#e2e7aa",
+        "#fed1e7",
+        "#6f2311",
+        "#6541ec",
+        "#6f2311",
+        "#e2e7aa"
+      ],
+      [
+        "#fed1e7",
+        "#fed1e7",
+        "#6f2311",
+        "#6541ec",
+        "#6379c7",
+        "#fed1e7"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 27,
+    "actualMoves": 27,
+    "shuffleMoves": 27
+  },
+  {
+    "colors": 5,
+    "tubeSize": 7,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#4c77e3",
+        "#4c77e3",
+        "#429694",
+        "#515bd9",
+        "#37319f"
+      ],
+      [
+        "#37319f",
+        "#4c77e3",
+        "#37319f",
+        "#429694",
+        "#515bd9",
+        "#4c77e3",
+        "#37319f"
+      ],
+      [
+        "#4c77e3",
+        "#d91fd4",
+        "#429694"
+      ],
+      [
+        "#429694",
+        "#515bd9",
+        "#4c77e3",
+        "#515bd9",
+        "#429694",
+        "#d91fd4",
+        "#37319f"
+      ],
+      [
+        "#37319f",
+        "#37319f",
+        "#d91fd4",
+        "#4c77e3"
+      ],
+      [
+        "#429694",
+        "#429694",
+        "#515bd9",
+        "#d91fd4"
+      ],
+      [
+        "#d91fd4",
+        "#d91fd4",
+        "#515bd9",
+        "#d91fd4",
+        "#515bd9"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 27,
+    "actualMoves": 27,
+    "shuffleMoves": 27
+  },
+  {
+    "colors": 5,
+    "tubeSize": 8,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#01f5dd",
+        "#2e997c",
+        "#8748b9",
+        "#8748b9",
+        "#aa7da8",
+        "#aa7da8"
+      ],
+      [
+        "#b74a0e",
+        "#b74a0e",
+        "#01f5dd",
+        "#01f5dd",
+        "#8748b9",
+        "#b74a0e",
+        "#b74a0e",
+        "#2e997c"
+      ],
+      [
+        "#aa7da8",
+        "#01f5dd",
+        "#b74a0e",
+        "#8748b9"
+      ],
+      [
+        "#8748b9",
+        "#b74a0e",
+        "#b74a0e",
+        "#8748b9",
+        "#aa7da8",
+        "#b74a0e",
+        "#01f5dd",
+        "#2e997c"
+      ],
+      [
+        "#01f5dd",
+        "#2e997c",
+        "#01f5dd",
+        "#01f5dd",
+        "#8748b9",
+        "#aa7da8"
+      ],
+      [
+        "#aa7da8",
+        "#aa7da8",
+        "#2e997c",
+        "#2e997c"
+      ],
+      [
+        "#aa7da8",
+        "#2e997c",
+        "#8748b9",
+        "#2e997c"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 27,
+    "actualMoves": 27,
+    "shuffleMoves": 27
+  },
+  {
+    "colors": 4,
+    "tubeSize": 9,
+    "emptyTubes": 2,
+    "tubes": [
+      [
+        "#548e6a",
+        "#dd5f7e",
+        "#4308d3",
+        "#548e6a",
+        "#dd5f7e",
+        "#605644"
+      ],
+      [
+        "#548e6a",
+        "#605644",
+        "#4308d3",
+        "#548e6a"
+      ],
+      [
+        "#605644",
+        "#4308d3",
+        "#dd5f7e",
+        "#4308d3",
+        "#605644",
+        "#605644",
+        "#4308d3"
+      ],
+      [
+        "#548e6a",
+        "#dd5f7e",
+        "#548e6a",
+        "#605644",
+        "#548e6a",
+        "#dd5f7e"
+      ],
+      [
+        "#4308d3",
+        "#548e6a",
+        "#4308d3",
+        "#605644",
+        "#dd5f7e",
+        "#dd5f7e",
+        "#dd5f7e",
+        "#dd5f7e"
+      ],
+      [
+        "#548e6a",
+        "#605644",
+        "#4308d3",
+        "#4308d3",
+        "#605644"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 28,
+    "actualMoves": 28,
+    "shuffleMoves": 28
+  }
+]

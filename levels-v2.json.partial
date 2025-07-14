@@ -1,0 +1,81 @@
+[
+  {
+    "colors": 3,
+    "tubeSize": 3,
+    "emptyTubes": 1,
+    "tubes": [
+      [
+        "#f22424",
+        "#f22424",
+        "#f22424"
+      ],
+      [
+        "#24f224",
+        "#24f224",
+        "#24f224"
+      ],
+      [
+        "#2424f2",
+        "#2424f2",
+        "#2424f2"
+      ],
+      []
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 6,
+    "actualMoves": 6,
+    "shuffleMoves": 6
+  },
+  {
+    "colors": 3,
+    "tubeSize": 3,
+    "emptyTubes": 1,
+    "tubes": [
+      [
+        "#f22424",
+        "#f22424",
+        "#f22424"
+      ],
+      [],
+      [
+        "#24f224",
+        "#24f224",
+        "#24f224"
+      ],
+      [
+        "#2424f2",
+        "#2424f2",
+        "#2424f2"
+      ]
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 6,
+    "actualMoves": 6,
+    "shuffleMoves": 6
+  },
+  {
+    "colors": 2,
+    "tubeSize": 3,
+    "emptyTubes": 1,
+    "tubes": [
+      [
+        "#f22424",
+        "#f22424",
+        "#f22424"
+      ],
+      [
+        "#24f2f2",
+        "#24f2f2",
+        "#24f2f2"
+      ],
+      []
+    ],
+    "frozenTubes": [],
+    "oneColorInTubes": [],
+    "minMoves": 6,
+    "actualMoves": 6,
+    "shuffleMoves": 6
+  }
+]
