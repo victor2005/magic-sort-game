@@ -74,6 +74,35 @@ function hasPossibleMove(tubes: string[][], tubeSize: number, frozenTubes: numbe
   return false;
 }
 
+// Check if the current state is completely unsolvable (dead end)
+function isStateUnsolvable(tubes: string[][], tubeSize: number, frozenTubes: number[] = [], oneColorInTubes: OneColorRestriction[] = []): boolean {
+  // If there are no possible moves, it's unsolvable
+  if (!hasPossibleMove(tubes, tubeSize, frozenTubes, oneColorInTubes)) {
+    return true;
+  }
+  
+  // Check for other unsolvable conditions:
+  // 1. Check if any color has more segments than can fit in available tubes
+  const colorCounts: { [color: string]: number } = {};
+  const availableTubes = tubes.length - frozenTubes.length;
+  
+  // Count all segments of each color
+  tubes.forEach(tube => {
+    tube.forEach(color => {
+      colorCounts[color] = (colorCounts[color] || 0) + 1;
+    });
+  });
+  
+  // Check if any color has more segments than can fit in available tubes
+  for (const [color, count] of Object.entries(colorCounts)) {
+    if (count > availableTubes * tubeSize) {
+      return true; // Impossible to solve
+    }
+  }
+  
+  return false;
+}
+
 // Helper to deep copy tubes
 function cloneTubes(tubes: string[][]): string[][] {
   return tubes.map(tube => [...tube]);
@@ -88,7 +117,7 @@ function getLevelData(levelIdx: number): LevelData {
 function getBestScore(level: number): number | null {
   const stored = localStorage.getItem(`tubeSort_best_${level}`);
   return stored ? parseInt(stored) : null;
-}
+    }
 
 function setBestScore(level: number, moves: number): void {
   localStorage.setItem(`tubeSort_best_${level}`, moves.toString());
@@ -231,14 +260,14 @@ const TubeSortGame: React.FC = () => {
     
     if (selected === null) {
       if (tubes[idx].length > 0 && !frozenTubes.includes(idx)) {
-        setSelected(idx);
+      setSelected(idx);
       }
     } else {
       if (selected === idx) {
-        setSelected(null);
-      } else {
-        const from = tubes[selected];
-        const to = tubes[idx];
+      setSelected(null);
+    } else {
+      const from = tubes[selected];
+      const to = tubes[idx];
         if (from.length === 0) {
           setSelected(null);
           return;
@@ -250,7 +279,7 @@ const TubeSortGame: React.FC = () => {
           return;
         }
         
-        const color = from[from.length - 1];
+      const color = from[from.length - 1];
         
         // Check if colors match (or target is empty)
         if (to.length > 0 && to[to.length - 1] !== color) {
@@ -266,11 +295,11 @@ const TubeSortGame: React.FC = () => {
         }
         
         // Count consecutive same colors from top
-        let count = 1;
-        for (let i = from.length - 2; i >= 0; i--) {
-          if (from[i] === color) count++;
-          else break;
-        }
+      let count = 1;
+      for (let i = from.length - 2; i >= 0; i--) {
+        if (from[i] === color) count++;
+        else break;
+      }
         
         // Count how many of the same color are already in the target tube
         let targetColorCount = 0;
@@ -288,21 +317,21 @@ const TubeSortGame: React.FC = () => {
           setHistory(prev => [...prev, cloneTubes(tubes)]);
           
           // Perform the pour
-          const newTubes = tubes.map((tube, i) =>
-            i === selected
-              ? tube.slice(0, tube.length - pourCount)
-              : i === idx
-              ? [...tube, ...Array(pourCount).fill(color)]
-              : tube
-          );
+      const newTubes = tubes.map((tube, i) =>
+        i === selected
+          ? tube.slice(0, tube.length - pourCount)
+          : i === idx
+          ? [...tube, ...Array(pourCount).fill(color)]
+          : tube
+      );
           
-          setTubes(newTubes);
+      setTubes(newTubes);
           setMoves(prev => prev + 1);
           
           // Check if solved
           if (isSolved(newTubes, currentLevel.tubeSize)) {
-            setWon(true);
-            setShowWin(true);
+        setWon(true);
+        setShowWin(true);
             
             // Check for new record
             const currentBest = getBestScore(level);
@@ -313,9 +342,9 @@ const TubeSortGame: React.FC = () => {
             }
             
             // Auto-advance to next level after 3 seconds
-            setTimeout(() => {
-              setShowWin(false);
-              nextLevel();
+        setTimeout(() => {
+          setShowWin(false);
+          nextLevel();
             }, 3000);
           } else {
             // Check if stuck
@@ -334,7 +363,28 @@ const TubeSortGame: React.FC = () => {
     const frozenTubes = currentLevel.frozenTubes || [];
     const oneColorInTubes = currentLevel.oneColorInTubes || [];
 
-    let possibleMoveFound = false;
+    // First, check if the current state is solvable
+    const isCurrentStateSolvable = hasPossibleMove(tubes, currentLevel.tubeSize, frozenTubes, oneColorInTubes);
+    const isUnsolvable = isStateUnsolvable(tubes, currentLevel.tubeSize, frozenTubes, oneColorInTubes);
+    
+    if (!isCurrentStateSolvable) {
+      if (isUnsolvable) {
+        setHint("🚫 This state is completely unsolvable! You've reached a dead end. Use Undo to go back or Reset to start over.");
+      } else {
+        setHint("🚫 No moves available - this state cannot be solved. Try using Undo or Reset to try a different approach.");
+      }
+      return;
+    }
+
+    // Find the best move by prioritizing:
+    // 1. Moves that complete a tube (fill it to tubeSize with same color)
+    // 2. Moves that create a longer sequence of the same color
+    // 3. Moves that clear space in tubes with mixed colors
+    // 4. Any valid move
+
+    let bestMove = null;
+    let bestScore = -1;
+
     for (let fromIdx = 0; fromIdx < tubes.length; fromIdx++) {
       const from = tubes[fromIdx];
       if (from.length === 0) continue;
@@ -367,16 +417,66 @@ const TubeSortGame: React.FC = () => {
         const pourCount = Math.min(maxPourForSpace, maxPourForColor);
 
         if (pourCount > 0) {
-          setHint(`Try pouring from tube ${fromIdx + 1} to tube ${toIdx + 1}`);
-          possibleMoveFound = true;
-          break;
+          // Calculate move score
+          let score = 0;
+          
+          // Bonus for completing a tube
+          if (targetColorCount + pourCount === currentLevel.tubeSize) {
+            score += 1000; // Highest priority
+          }
+          
+          // Bonus for creating longer sequences
+          score += (targetColorCount + pourCount) * 10;
+          
+          // Bonus for clearing mixed tubes
+          if (from.length > count) {
+            score += 5; // Clearing mixed content
+          }
+          
+          // Bonus for moving to empty tubes (strategic positioning)
+          if (to.length === 0) {
+            score += 2;
+          }
+          
+          // Bonus for moving from tubes with mixed colors
+          if (from.length > count) {
+            score += 3;
+          }
+
+          if (score > bestScore) {
+            bestScore = score;
+            bestMove = { fromIdx, toIdx, color, pourCount, score };
+          }
         }
       }
-      if (possibleMoveFound) break;
     }
 
-    if (!possibleMoveFound) {
-      setHint("Try again, no possible move");
+    if (bestMove) {
+      const { fromIdx, toIdx, color, pourCount, score } = bestMove;
+      
+      // Generate helpful hint message based on the move type
+      let hintMessage = `Try pouring ${pourCount} segment${pourCount > 1 ? 's' : ''} from tube ${fromIdx + 1} to tube ${toIdx + 1}`;
+      
+      // Add strategic reasoning
+      if (score >= 1000) {
+        hintMessage += " - This will complete a tube! 🎯";
+      } else if (score >= 100) {
+        hintMessage += " - This creates a longer sequence of the same color";
+      } else if (score >= 50) {
+        hintMessage += " - This helps organize the colors";
+      } else {
+        hintMessage += " - This is a valid move to progress";
+      }
+      
+      // Add additional strategic advice for lower-scoring moves
+      if (score < 50) {
+        hintMessage += " 💡 Tip: Focus on completing tubes first, then organizing mixed colors";
+      }
+      
+      setHint(hintMessage);
+    } else {
+      // This shouldn't happen if isCurrentStateSolvable is true, but just in case
+      setHint("No valid moves found. Try a different approach.");
     }
   };
 
@@ -395,7 +495,7 @@ const TubeSortGame: React.FC = () => {
         alignItems: 'center', 
         marginBottom: 16 
       }}>
-        <h1>Tube Sort Puzzle</h1>
+      <h1>Tube Sort Puzzle</h1>
         <button 
           onClick={() => setIsDarkTheme(!isDarkTheme)}
           title={`Toggle theme (${navigator.platform.includes('Mac') ? '⌘' : 'Ctrl'}+T)`}
@@ -585,7 +685,31 @@ const TubeSortGame: React.FC = () => {
         <button onClick={handleHint}>Hint</button>
       </div>
       
-      {hint && <div style={{ marginTop: 16, color: '#1976d2', fontWeight: 'bold', background: '#e3f2fd', borderRadius: 8, padding: '8px 18px', boxShadow: '0 2px 8px #bbdefb' }}>{hint}</div>}
+      {hint && (
+        <div style={{ 
+          marginTop: 16, 
+          fontWeight: 'bold', 
+          borderRadius: 12, 
+          padding: '12px 20px', 
+          boxShadow: '0 4px 16px rgba(0,0,0,0.15)',
+          border: '2px solid',
+          fontSize: '1rem',
+          textAlign: 'center',
+          maxWidth: '600px',
+          margin: '16px auto 0',
+          ...(hint.includes('🚫') ? {
+            color: '#d32f2f',
+            background: '#ffebee',
+            borderColor: '#f44336'
+          } : {
+            color: '#1976d2',
+            background: '#e3f2fd',
+            borderColor: '#2196f3'
+          })
+        }}>
+          💡 <strong>Hint:</strong> {hint}
+        </div>
+      )}
       
       {showWin && !showFinalWin && (
         <>
