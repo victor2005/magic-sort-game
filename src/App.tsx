@@ -117,10 +117,34 @@ function getLevelData(levelIdx: number): LevelData {
 function getBestScore(level: number): number | null {
   const stored = localStorage.getItem(`tubeSort_best_${level}`);
   return stored ? parseInt(stored) : null;
-    }
+}
 
 function setBestScore(level: number, moves: number): void {
   localStorage.setItem(`tubeSort_best_${level}`, moves.toString());
+}
+
+// Level completion tracking
+function getCompletedLevels(): Set<number> {
+  const stored = localStorage.getItem('tubeSort_completed_levels');
+  if (!stored) return new Set([0]); // Level 0 is always unlocked
+  try {
+    const completedArray = JSON.parse(stored);
+    return new Set([0, ...completedArray]); // Level 0 is always unlocked
+  } catch {
+    return new Set([0]);
+  }
+}
+
+function setCompletedLevel(level: number): void {
+  const completedLevels = getCompletedLevels();
+  completedLevels.add(level);
+  const completedArray = Array.from(completedLevels).filter(l => l !== 0); // Don't store level 0
+  localStorage.setItem('tubeSort_completed_levels', JSON.stringify(completedArray));
+}
+
+function isLevelUnlocked(level: number): boolean {
+  const completedLevels = getCompletedLevels();
+  return completedLevels.has(level);
 }
 
 const TubeSortGame: React.FC = () => {
@@ -136,6 +160,8 @@ const TubeSortGame: React.FC = () => {
   const [bestScore, setBestScoreState] = useState<number | null>(null);
   const [newRecord, setNewRecord] = useState(false);
   const [history, setHistory] = useState<string[][][]>([]);
+  const [completedLevels, setCompletedLevels] = useState<Set<number>>(() => getCompletedLevels());
+  const [showLevelSelect, setShowLevelSelect] = useState(false);
   const [isDarkTheme, setIsDarkTheme] = useState(() => {
     const saved = localStorage.getItem('tubeSort_theme');
     return saved === 'dark';
@@ -196,22 +222,26 @@ const TubeSortGame: React.FC = () => {
 
   const nextLevel = () => {
     if (level < LEVELS.length - 1) {
-      setLevel(lvl => {
-        const newLevel = lvl + 1;
-        const levelData = getLevelData(newLevel);
-        const newTubes = cloneTubes(levelData.tubes);
-        setTubes(newTubes);
-        setSelected(null);
-        setWon(false);
-        setStuck(false);
-        setHint(null);
-        setShowWin(false);
-        setShowFinalWin(false);
-        setMoves(0);
-        setNewRecord(false);
-        setHistory([cloneTubes(newTubes)]);
-        return newLevel;
-      });
+      const nextLevelIndex = level + 1;
+      // Only allow navigation to unlocked levels
+      if (isLevelUnlocked(nextLevelIndex)) {
+        setLevel(lvl => {
+          const newLevel = lvl + 1;
+          const levelData = getLevelData(newLevel);
+          const newTubes = cloneTubes(levelData.tubes);
+          setTubes(newTubes);
+          setSelected(null);
+          setWon(false);
+          setStuck(false);
+          setHint(null);
+          setShowWin(false);
+          setShowFinalWin(false);
+          setMoves(0);
+          setNewRecord(false);
+          setHistory([cloneTubes(newTubes)]);
+          return newLevel;
+        });
+      }
     } else {
       setShowFinalWin(true);
     }
@@ -247,6 +277,25 @@ const TubeSortGame: React.FC = () => {
       setSelected(null);
       setStuck(false);
       setHint(null);
+    }
+  };
+
+  const selectLevel = (levelIndex: number) => {
+    if (isLevelUnlocked(levelIndex)) {
+      setLevel(levelIndex);
+      const levelData = getLevelData(levelIndex);
+      const newTubes = cloneTubes(levelData.tubes);
+      setTubes(newTubes);
+      setSelected(null);
+      setWon(false);
+      setStuck(false);
+      setHint(null);
+      setShowWin(false);
+      setShowFinalWin(false);
+      setMoves(0);
+      setNewRecord(false);
+      setHistory([cloneTubes(newTubes)]);
+      setShowLevelSelect(false);
     }
   };
 
@@ -332,6 +381,10 @@ const TubeSortGame: React.FC = () => {
           if (isSolved(newTubes, currentLevel.tubeSize)) {
         setWon(true);
         setShowWin(true);
+            
+            // Mark level as completed and unlock next level
+            setCompletedLevel(level);
+            setCompletedLevels(prev => new Set(Array.from(prev).concat(level)));
             
             // Check for new record
             const currentBest = getBestScore(level);
@@ -517,7 +570,20 @@ const TubeSortGame: React.FC = () => {
       <div style={{ marginBottom: 12 }}>
         <button onClick={prevLevel} disabled={level === 0}>Previous</button>
         <span style={{ margin: '0 16px', fontWeight: 'bold' }}>Level {level + 1}</span>
-        <button onClick={nextLevel} disabled={level === LEVELS.length - 1}>Next</button>
+        <button 
+          onClick={nextLevel} 
+          disabled={level === LEVELS.length - 1 || !isLevelUnlocked(level + 1)}
+          title={!isLevelUnlocked(level + 1) ? "Complete this level first!" : ""}
+        >
+          Next {!isLevelUnlocked(level + 1) && level < LEVELS.length - 1 ? "🔒" : ""}
+        </button>
+        <button 
+          onClick={() => setShowLevelSelect(!showLevelSelect)}
+          style={{ marginLeft: '12px' }}
+          title="Select Level"
+        >
+          📋 Select Level
+        </button>
       </div>
       
       <div style={{ 
@@ -526,8 +592,82 @@ const TubeSortGame: React.FC = () => {
         color: '#888',
         fontWeight: '500'
       }}>
-        Progress: {level + 1} / {LEVELS.length} levels
+        Progress: {completedLevels.size} / {LEVELS.length} levels completed
       </div>
+      
+      {showLevelSelect && (
+        <div style={{
+          marginBottom: 16,
+          padding: '16px',
+          background: '#f8f9fa',
+          borderRadius: 12,
+          border: '2px solid #e9ecef',
+          maxHeight: '300px',
+          overflowY: 'auto'
+        }}>
+          <div style={{ 
+            fontSize: '1.1rem', 
+            fontWeight: 'bold', 
+            marginBottom: '12px',
+            color: '#495057'
+          }}>
+            📋 Level Selection ({completedLevels.size}/{LEVELS.length} completed)
+          </div>
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fill, minmax(60px, 1fr))',
+            gap: '8px'
+          }}>
+            {Array.from({ length: LEVELS.length }, (_, i) => {
+              const isUnlocked = isLevelUnlocked(i);
+              const isCompleted = completedLevels.has(i);
+              const isCurrent = i === level;
+              const bestScore = getBestScore(i);
+              
+              return (
+                <button
+                  key={i}
+                  onClick={() => selectLevel(i)}
+                  disabled={!isUnlocked}
+                  style={{
+                    padding: '8px 4px',
+                    borderRadius: '8px',
+                    border: '2px solid',
+                    fontSize: '0.8rem',
+                    fontWeight: 'bold',
+                    cursor: isUnlocked ? 'pointer' : 'not-allowed',
+                    transition: 'all 0.2s ease',
+                    position: 'relative',
+                    ...(isCurrent ? {
+                      background: '#007bff',
+                      color: 'white',
+                      borderColor: '#0056b3'
+                    } : isCompleted ? {
+                      background: '#28a745',
+                      color: 'white',
+                      borderColor: '#1e7e34'
+                    } : isUnlocked ? {
+                      background: '#6c757d',
+                      color: 'white',
+                      borderColor: '#545b62'
+                    } : {
+                      background: '#f8f9fa',
+                      color: '#6c757d',
+                      borderColor: '#dee2e6'
+                    })
+                  }}
+                  title={`Level ${i + 1}${isCompleted ? ` - Completed${bestScore ? ` (Best: ${bestScore} moves)` : ''}` : isUnlocked ? ' - Available' : ' - Locked'}${isCurrent ? ' - Current' : ''}`}
+                >
+                  {i + 1}
+                  {isCompleted && <span style={{ fontSize: '0.6rem', display: 'block' }}>✓</span>}
+                  {isCurrent && <span style={{ fontSize: '0.6rem', display: 'block' }}>▶</span>}
+                  {!isUnlocked && <span style={{ fontSize: '0.6rem', display: 'block' }}>🔒</span>}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      )}
       
       <div style={{ 
         marginBottom: 16, 
