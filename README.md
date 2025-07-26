@@ -1,72 +1,131 @@
-# Magic Sort Game
+# 🎮 Magic Sort Puzzle Game
 
-A challenging puzzle game where you sort colored liquid segments into tubes so that each tube contains only one color. The goal is to organize all the colored segments by pouring them between tubes strategically.
+A challenging and addictive tube sorting puzzle game built with React and TypeScript. Sort colored liquids into tubes so each tube contains only one color!
 
-## Game Features
+## 🌐 **Play Now!**
+**🎯 Live Game: https://victor2005.github.io/magic-sort-game**
 
-- **30 challenging levels** with increasing difficulty
-- **Dynamic tube sizes**: 4, 5, and 6 segments per tube
-- **Multiple colors**: 2 to 8 different colors per level
-- **Variable empty tubes**: 1 to 3 empty tubes for strategic planning
-- **Hint system**: Get help when stuck
-- **Progress tracking**: See your progress through all levels
-- **Smooth animations**: Beautiful liquid pouring animations
-- **Responsive design**: Works on desktop and mobile
+## ✨ **Latest Features (v2.0)**
 
-## Level Progression
+### 🧠 **Intelligent Hint System**
+- **Smart move suggestions** with strategic reasoning
+- **Dead end detection** - warns when state is unsolvable
+- **Move prioritization** - suggests completing tubes first
+- **Visual feedback** with emojis and color-coded hints
+- **Helpful tips** for lower-scoring moves
 
-The game features 30 levels with the following progression:
+### 🎯 **100 Levels of Progressive Difficulty**
+- **Levels 1-3**: Simple beginner levels (3-4 colors, no special tubes)
+- **Levels 4-27**: Standard puzzle levels
+- **Levels 28+**: Advanced levels with special mechanics
+- **Levels 40+**: One-color tubes with mixed colors for extra challenge
+- **Levels 41+**: Frozen tubes that can't be poured out
 
-### Beginner Levels (1-12)
-- 2-7 colors
-- 4 segments per tube
-- 1-2 empty tubes
-- 2-30 minimum moves
+### 🔧 **Game Balance Improvements**
+- ✅ **Fixed unsolvable Level 30** with proper color distribution
+- ✅ **Eliminated frozen tube conflicts** (no duplicate colors)
+- ✅ **Minimal empty tubes** (1 per level) for better challenge
+- ✅ **Perfect color distribution** across all levels
+- ✅ **Progressive difficulty curve** for all skill levels
 
-### Intermediate Levels (13-24)
-- 5-8 colors
-- 5 segments per tube
-- 2-3 empty tubes
-- 25-60 minimum moves
+### 🎮 **Enhanced User Experience**
+- 🌙 **Dark/Light theme toggle** (Ctrl/Cmd+T)
+- 📊 **Progress tracking** and best scores
+- 🔄 **Undo functionality** with move history
+- 🎉 **Victory animations** and new record celebrations
+- 💡 **Contextual hints** that adapt to game state
 
-### Expert Levels (25-30)
-- 6-8 colors
-- 6 segments per tube
-- 2-3 empty tubes
-- 45-70 minimum moves
+## 🎯 **How to Play**
 
-## How to Play
+1. **Objective**: Sort colored liquids so each tube contains only one color
+2. **Rules**: 
+   - Pour liquids between tubes
+   - Only pour onto matching colors or empty tubes
+   - Each tube can hold up to the specified capacity
+   - Some tubes are "frozen" (can't pour out) or "one-color" (restricted)
 
-1. Click on a tube to select it (it will highlight in blue)
-2. Click on another tube to pour liquid from the selected tube
-3. You can only pour liquid onto the same color or into an empty tube
-4. The goal is to have each tube filled with only one color
-5. Use the hint button if you get stuck
-6. Complete all levels to win the game!
+3. **Special Tubes**:
+   - 🔒 **Frozen Tubes**: Can't pour liquid out, but can receive liquid
+   - 🎯 **One-Color Tubes**: Can only receive a specific color
 
-## Available Scripts
+## 🚀 **Technical Features**
 
-### `npm start`
+- **React 19** with TypeScript
+- **Framer Motion** for smooth animations
+- **React Confetti** for victory celebrations
+- **Local Storage** for saving progress and best scores
+- **Responsive Design** for all devices
+- **GitHub Pages** deployment
 
-Runs the app in development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🎨 **Game Mechanics**
 
-### `npm run build`
+### **Color Distribution**
+- Each color appears exactly `tubeSize` times across all tubes
+- Perfect mathematical balance ensures all levels are solvable
+- Progressive difficulty with increasing colors and tube sizes
 
-Builds the app for production to the `build` folder.
+### **Level Design**
+- **Early levels**: Simple, perfect for learning
+- **Mid levels**: Introduce special tube mechanics
+- **Advanced levels**: Complex puzzles with multiple constraints
+- **Master levels**: Ultimate challenge with 4 frozen tubes
 
-### `npm run deploy`
+### **Hint System Intelligence**
+- Detects unsolvable states and dead ends
+- Prioritizes moves that complete tubes
+- Provides strategic reasoning for suggestions
+- Adapts to current game state
 
-Deploys the game to GitHub Pages.
+## 🏆 **Achievements**
 
-## Technologies Used
+- Complete all 100 levels
+- Beat your best scores
+- Master the advanced mechanics
+- Solve the most challenging puzzles
 
-- React 19
-- TypeScript
-- Framer Motion (animations)
-- React Confetti (celebration effects)
-- CSS3 with modern styling
+## 🔧 **Development**
 
-## Live Demo
+```bash
+# Install dependencies
+npm install
 
-Play the game online at: [https://victor2005.github.io/magic-sort-game](https://victor2005.github.io/magic-sort-game)
+# Start development server
+npm start
+
+# Build for production
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
+```
+
+## 📈 **Recent Updates**
+
+### v2.0 (Latest)
+- 🧠 Enhanced intelligent hint system
+- 🎯 Fixed unsolvable Level 30
+- 🔧 Expanded to 100 levels with progressive difficulty
+- 🌙 Dark/Light theme toggle
+- 📊 Improved user experience and feedback
+
+### v1.0
+- 🎮 Basic tube sorting gameplay
+- 🔒 Frozen tube mechanics
+- 🎯 One-color tube restrictions
+- 📱 Responsive design
+
+## 🤝 **Contributing**
+
+Feel free to contribute by:
+- Reporting bugs
+- Suggesting new features
+- Creating new levels
+- Improving the hint system
+
+## 📄 **License**
+
+This project is open source and available under the MIT License.
+
+---
+
+**🎮 Ready to challenge your mind? Play now at: https://victor2005.github.io/magic-sort-game**
