@@ -144,7 +144,10 @@ function setCompletedLevel(level: number): void {
 
 function isLevelUnlocked(level: number): boolean {
   const completedLevels = getCompletedLevels();
-  return completedLevels.has(level);
+  // Level 0 is always unlocked
+  if (level === 0) return true;
+  // A level is unlocked if the previous level is completed
+  return completedLevels.has(level - 1);
 }
 
 const TubeSortGame: React.FC = () => {
