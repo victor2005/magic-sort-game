@@ -2,42 +2,42 @@
   {
     "colors": 4,
     "tubeSize": 4,
-    "emptyTubes": 2,
+    "emptyTubes": 3,
     "tubes": [
       [
-        "#3ef070",
-        "#bf776b",
-        "#bf776b"
+        "#4a4017",
+        "#a8fc52",
+        "#4a4017",
+        "#2f5788"
       ],
       [
-        "#3ef070",
-        "#3ef070"
+        "#d37100",
+        "#2f5788"
       ],
       [
-        "#3ef070",
-        "#342326",
-        "#eef97a"
+        "#4a4017",
+        "#d37100",
+        "#4a4017"
+      ],
+      [],
+      [],
+      [
+        "#d37100",
+        "#2f5788",
+        "#2f5788",
+        "#a8fc52"
       ],
       [
-        "#bf776b",
-        "#eef97a",
-        "#eef97a"
-      ],
-      [
-        "#342326",
-        "#342326",
-        "#342326",
-        "#eef97a"
-      ],
-      [
-        "#bf776b"
+        "#a8fc52",
+        "#a8fc52",
+        "#d37100"
       ]
     ],
     "frozenTubes": [],
     "oneColorInTubes": [],
-    "minMoves": 8,
-    "actualMoves": 8,
-    "shuffleMoves": 8
+    "minMoves": 11,
+    "actualMoves": 11,
+    "shuffleMoves": 11
   },
   {
     "colors": 4,
